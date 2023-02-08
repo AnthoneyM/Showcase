@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<title></title>
+</head>
+<body>
+
+<div id="outside">
+	<div id="inside">
+		<div class="screentext">
+
+			<pre id="logo">*****************************************************
+*****************************************************
+*****************************************************
+███████████  ████████████      ████████      ████████
+███████████  ███████████████   █████████    █████████
+   █████        ████   █████     ████████  ████████
+   █████        ███████████      ████  ███ ███ ████
+   █████        ███████████      ████  ███████ ████
+   █████        ████   █████     ████   █████  ████
+███████████  ███████████████   ██████    ███   ██████
+███████████  ████████████      ██████     █    ██████
+*****************************************************
+*  This system is for the use of authorized users   *
+*  only. Usage of  this system may be monitored     *
+*  and recorded                                     *
+*****************************************************</pre>
+
+			<div id="ms-dos">
+				<p>MS-DOS version 1.25</p>
+				<p>Copyright 1981,82 Microsoft, Inc</p>
+				<br>
+				<p id="enter">Press enter to continue...</p>
+				<p id="originalC">C:\> <strong id="ftpcommand"></strong></p>
+				<p><strong id="ftpser">Connecting to FTP...</strong></p>
+				<br>
+			</div>
+			<strong id="writtenstorytext"></strong>
+			<div id="storytext">
+				<br>
+				<p>C:\></p>
+			</div>
+		</div>
+		<div id="buttons">
+			<button id="power" onclick="noise()">&#x23FB;</button>
+			<button class="connection" onclick="connection()">&#128379</button>
+		</div>
+	</div>
+</div>
+
+
+</body>
+<audio id="running" src="running.ogg" type="audio/mpeg" loop></audio>
+</html>
+
